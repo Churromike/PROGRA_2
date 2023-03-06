@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6303362227886179631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6303362227886179665}
+  - component: {fileID: 6303362227886179630}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6303362227886179665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6303362227886179631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6303362227886179630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6303362227886179631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445986dbc1cf7a84ca0793e876c8a65b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musica:
+  - nombre: Nivel
+    clip: {fileID: 8300000, guid: 9d54fa9845367d148b8048835371b90b, type: 3}
+    loop: 1
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - nombre: Engranaje
+    clip: {fileID: 8300000, guid: 84301510763fae24287ff3acb219212f, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - nombre: Creditos
+    clip: {fileID: 8300000, guid: a22a724643e3af3428d99845fce27f7f, type: 3}
+    loop: 1
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - nombre: Salto
+    clip: {fileID: 8300000, guid: b6eb22171ab78454bb93443442726b9b, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - nombre: Muerte
+    clip: {fileID: 8300000, guid: 3e95bbe3b7e2c3941b4d7a12047afcd4, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
